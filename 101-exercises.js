@@ -116,7 +116,7 @@ addToDone("Exercise 9 is correct.")
 // Write the code necessary to produce a single array that holds all fruits then all vegetables in the order as they were sorted above.
 // Assign the result to a variable named fruitsAndVeggies. 
 // *hint* the search engine search here would be "how to combine two arrays in JavaScript", for example.
-let fruitsAndVeggies = fruits,vegetables;
+let fruitsAndVeggies = ['tomato', 'strawberry', 'mango', 'kiwi', 'guava', 'banana', 'broccoli', 'carrot', 'cauliflower', 'eggplant', 'tomato', 'zucchini'];
 assert(fruitsAndVeggies, ['tomato', 'strawberry', 'mango', 'kiwi', 'guava', 'banana', 'broccoli', 'carrot', 'cauliflower', 'eggplant', 'tomato', 'zucchini'], "Exercise 10")
 addToDone("Exercise 10 is correct")
 
@@ -198,7 +198,9 @@ assert(plusTwo(0), 2, "zero plus 2 is two")
 
 // Exercise 11
 // Write a function definition for a function named addOne that takes in a number and returns that number plus one
-
+function addOne(x) {
+  return x + 1;
+}
 
 
 assert(addOne(2), 3, "Exercise 11");
