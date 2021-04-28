@@ -219,10 +219,12 @@ addToDone("Exercise 11 is correct.")
 // Documentation for comparison operators https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#relational_operators
 // HINT - here are example functions using comparison operators https://gist.github.com/ryanorsinger/e843c7d0966993bd8193f0afabe16ae0
 // If you get stuck, be sure to check the example code and documentation listed above
-
-
-
-
+function isPositive(x) {
+  if ( x>0) {
+    return true;
+  } else { 
+  return false;}
+}
 assert(isPositive(0.25), true, "Exercise 12");
 assert(isPositive(0.00001), true, "Exercise 12");
 assert(isPositive(Infinity), true, "Exercise 12");
@@ -238,9 +240,12 @@ addToDone("Exercise 12 is correct.")
 
 // Exercise 13
 // Write a function definition named isNegative that takes in a number and returns true or False if that number is negative.
-
-
-
+function isNegative(x) {
+  if ( x<0) {
+    return true;
+  } else { 
+  return false;}
+}
 assert(isNegative(positiveOddNumber), false, "Exercise 13");
 assert(isNegative(positiveEvenNumber), false, "Exercise 13");
 assert(isNegative(negativeOddNumber), true, "Exercise 13");
@@ -250,7 +255,12 @@ addToDone("Exercise 13 is correct.")
 
 // Exercise 14
 // Write a function definition named isOdd that takes in a number and returns true or false if that number is odd.
-
+function isOdd(x) {
+  if ( x % 2 !== 0) {
+    return true;
+  } else { 
+  return false;}
+}
 assert(isOdd(positiveOddNumber), true, "Exercise 14");
 assert(isOdd(positiveEvenNumber), false, "Exercise 14");
 assert(isOdd(negativeOddNumber), true, "Exercise 14");
@@ -259,7 +269,12 @@ addToDone("Exercise 14 is correct.")
 
 // Exercise 15
 // Write a function definition named isEven that takes in a number and returns true or false if that number is even.
-
+function isEven(x) {
+  if ( x % 2 === 0) {
+    return true;
+  } else { 
+  return false;}
+}
 assert(isEven(2), true, "Exercise 15");
 assert(isEven(positiveOddNumber), false, "Exercise 15");
 assert(isEven(positiveEvenNumber), true, "Exercise 15");
