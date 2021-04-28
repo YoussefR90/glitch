@@ -106,7 +106,8 @@ addToDone("Exercise 8 is correct.")
 // Exercise 9
 // Write the code necessary to sort the fruits in reverse alphabetical order
 var fruits = ['tomato', 'strawberry', 'mango', 'kiwi', 'guava', 'banana'];
-fruits.sort()
+fruits.sort();
+fruits.reverse()
 assert(fruits, ['tomato', 'strawberry', 'mango', 'kiwi', 'guava', 'banana'], "Exercise 9")
 addToDone("Exercise 9 is correct.")
 
@@ -115,7 +116,7 @@ addToDone("Exercise 9 is correct.")
 // Write the code necessary to produce a single array that holds all fruits then all vegetables in the order as they were sorted above.
 // Assign the result to a variable named fruitsAndVeggies. 
 // *hint* the search engine search here would be "how to combine two arrays in JavaScript", for example.
-
+var fruits, vegetables = [fruitsandVeggies]
 assert(fruitsAndVeggies, ['tomato', 'strawberry', 'mango', 'kiwi', 'guava', 'banana', 'broccoli', 'carrot', 'cauliflower', 'eggplant', 'tomato', 'zucchini'], "Exercise 10")
 addToDone("Exercise 10 is correct")
 
