@@ -300,13 +300,8 @@ addToDone("Exercise 16 is correct.")
 // Exercise 17
 // Write a function definition named isPositiveOdd that takes in a number and returns true or false if the value is both greater than zero and odd
 function isPositiveOdd(x) {
-  if ( x % 2 === 0) {
-    return true;
-  } else { 
-    return false;
+  return (x % 2 !== 0 && x > 0);
   }
-}
-
 
 assert(isPositiveOdd(3), true, "Exercise 17");
 assert(isPositiveOdd(positiveOddNumber), true, "Exercise 17");
@@ -318,6 +313,9 @@ addToDone("Exercise 17 is correct.")
 
 // Exercise 18
 // Write a function definition named isPositiveEven that takes in a number and returns true or false if the value is both greater than zero and even
+function isPositiveEven(x) {
+  return (x % 2 === 0 && x > 0);
+  }
 
 assert(isPositiveEven(4), true, "Exercise 18" );
 assert(isPositiveEven(positiveOddNumber), false, "Exercise 18");
