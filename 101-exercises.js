@@ -300,10 +300,11 @@ addToDone("Exercise 16 is correct.")
 // Exercise 17
 // Write a function definition named isPositiveOdd that takes in a number and returns true or false if the value is both greater than zero and odd
 function isPositiveOdd(x) {
-  if (x>0, x % 2 === 0) {
+  if ( x % 2 === 0) {
     return true;
   } else { 
-    return false;}
+    return false;
+  }
 }
 
 
