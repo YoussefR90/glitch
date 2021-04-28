@@ -116,7 +116,7 @@ addToDone("Exercise 9 is correct.")
 // Write the code necessary to produce a single array that holds all fruits then all vegetables in the order as they were sorted above.
 // Assign the result to a variable named fruitsAndVeggies. 
 // *hint* the search engine search here would be "how to combine two arrays in JavaScript", for example.
-var fruits, vegetables = [fruitsandVeggies]
+let fruitsAndVeggies = fruits + vegetables;
 assert(fruitsAndVeggies, ['tomato', 'strawberry', 'mango', 'kiwi', 'guava', 'banana', 'broccoli', 'carrot', 'cauliflower', 'eggplant', 'tomato', 'zucchini'], "Exercise 10")
 addToDone("Exercise 10 is correct")
 
