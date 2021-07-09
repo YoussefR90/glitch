@@ -721,7 +721,7 @@ addToDone("Exercise 45 is correct.")
 function removeVowels (str){
   var newStr = "";
   for (var x = 0; x < str.length; x++){
-    if (!isVowel(str[x])){
+    if (!isVowel(str[x]))
       newStr += str [x]
     }
   }
