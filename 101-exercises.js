@@ -724,8 +724,6 @@ function removeVowels (str){
     if (!isVowel(str[x]))
       newStr += str [x]
     }
-  }
-  console.log(newStr)
   return newStr;
 }
 assert(removeVowels("banana"), "bnn", "Exercise 46");
